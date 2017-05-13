@@ -1,0 +1,133 @@
+/*Font - Robo*o*/
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/*Global Deklarasi*/
+hr{
+  width: 70%;
+  border-top: 1px solid #000;
+  opacity: 0.7;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+a:focus{
+  text-decoration: none;
+}
+
+/*Halaman Awal*/
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #007ac1;
+}
+
+.navbar{
+  border-bottom: 3px solid #007ac1;
+  border-radius: 0px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 0px;
+}
+
+i.material-icons{
+  color: black;
+  font-size: 10em;
+  opacity: 0.5;
+}
+
+.panel{
+  background-color: #03a9f4;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+.panel h3{
+  color: black;
+  opacity: 0.5;
+}
+
+.panel a{
+  color: black;
+}
+
+.tombol i.material-icons{
+  font-size: 2em;
+}
+
+.btn-default{
+  background-color: #03a9f4;
+  color: black;
+}
+
+.btn-default:active{
+  background-color: #03a9f4;
+  color: black;
+  box-shadow: 0px 0px 0px black;
+}
+
+.btn-default:hover{
+  background-color: #03a9f4;
+  color: black;
+}
+
+.btn-default:focus{
+  background-color: #03a9f4;
+  color: black;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: black;
+    background-color: #03a9f4;
+    border-color: #8c8c8c;
+}
+
+.btn{
+  border: 0px solid transparent;
+  border-radius: 0px;
+  font-size: 19px;
+  padding: 6px 12px;
+  margin-top: 2.5%;
+}
+
+.jumbotron{
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+  margin-top: 3%;
+  background-color: #03a9f4;
+  border-top: 5px solid #007ac1;
+}
+
+.jumbotron p{
+  color: black;
+  opacity: 0.7;
+}
+
+.carousel{
+  margin-bottom: 5%;
+}
+
+.modal-header{
+  text-align: center;
+  background-color: #03a9f4;
+}
+
+.modal-body{
+  display: flex;
+}
+
+.icon-modal i.material-icons{
+  font-size: 150px;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-right: 20%;
+}
+
+.carousel-control i.material-icons{
+  padding-top: 50%;
+}
